@@ -61,6 +61,7 @@ $(document).ready(function(){
 });
 
 
+
 $(function(){
   $(".faqitem").on("click", function(e){
     e.preventDefault();
