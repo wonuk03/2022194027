@@ -62,21 +62,56 @@ $(document).ready(function(){
 
 
 
-$(function(){
-  $(".faqitem").on("click", function(e){
-    e.preventDefault();
+// $(function(){
+//   $(".faqitem").on("click", function(e){
+//     e.preventDefault();
 
-    $(".faqitem").not(this).removeClass("on").find(".faqbody").slideUp(200);
-    $(".faqitem").not(this).find(".faqicon").text("+");
-
-
-    $(this).toggleClass("on");
-    $(this).find(".faqbody").slideToggle(200);
+//     $(".faqitem").not(this).removeClass("on").find(".faqbody").slideUp(200);
+//     $(".faqitem").not(this).find(".faqicon").text("+");
 
 
-    $(this).find(".faqicon").text($(this).hasClass("on") ? "-" : "+");
+//     $(this).toggleClass("on");
+//     $(this).find(".faqbody").slideToggle(200);
+
+
+//     $(this).find(".faqicon").text($(this).hasClass("on") ? "-" : "+");
+//   });
+// });
+
+
+
+$(function () {
+
+  $(window).on("pageshow", function () {
+    $(".faqitem").removeClass("on");
+    $(".faqicon").text("+");
+    $(".faqbody").stop(true, true).hide().css({ height: "", overflow: "" });
   });
+
+  $(".faqitem").on("click", function () {
+    var $this = $(this);
+
+
+    $(".faqbody").stop(true, true);
+
+
+    $(".faqitem").not($this).removeClass("on");
+    $(".faqitem").not($this).find(".faqicon").text("+");
+    $(".faqitem").not($this).find(".faqbody").slideUp(200, function () {
+      $(this).css({ height: "", overflow: "" });
+    });
+
+
+    $this.toggleClass("on");
+    $this.find(".faqbody").slideToggle(200, function () {
+      $(this).css({ height: "", overflow: "" });
+    });
+
+    $this.find(".faqicon").text($this.hasClass("on") ? "-" : "+");
+  });
+
 });
+
 
 $(function(){
 
