@@ -1639,3 +1639,514 @@ nav .sub li a:focus {
 }
 
 
+.comeback{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.cbwrap{
+  width: 1200px;
+}
+
+.cbhead{
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.cbhead h2{
+  margin: 0 0 10px 0;
+  font-size: 30px;
+  font-weight: 800;
+  color: rgb(127, 57, 255);
+}
+
+.cbhead p{
+  margin: 0;
+  color: #555;
+}
+
+.cbcard{
+  width: 100%;
+  background: #f7f7f7;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.06);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.06);
+  display: flex;
+  gap: 0;
+}
+
+.cbimg{
+  width: 520px;
+  height: 364px;
+  overflow: hidden;
+  flex: 0 0 520px;
+}
+
+.cbimg img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform .35s ease;
+}
+
+.cbtxt{
+  padding: 26px 26px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cbbadges{
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.cbbadge{
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: rgb(127, 57, 255);
+  color: #fff;
+  font-weight: 900;
+  font-size: 12px;
+}
+
+.cbbadge2{
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: #fff;
+  color: rgb(127, 57, 255);
+  font-weight: 900;
+  font-size: 12px;
+  border: 1px solid rgba(127,57,255);
+}
+
+.cbtxt h3{
+  margin: 0 0 10px 0;
+  font-size: 22px;
+  font-weight: 900;
+  color: #333;
+}
+
+.cbdesc{
+  margin: 0 0 16px 0;
+  color: #555;
+  line-height: 1.75;
+  font-size: 14px;
+}
+
+.cbinfo{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.cbinfobox{
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 14px;
+  padding: 10px 12px;
+  min-width: 160px;
+}
+
+.cbkey{
+  font-size: 12px;
+  color: #888;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.cbval{
+  font-size: 13px;
+  color: #333;
+  font-weight: 800;
+}
+
+.cbbtns{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.cbbtn{
+  display: inline-block;
+  padding: 12px 16px;
+  border-radius: 999px;
+  background: rgb(127, 57, 255);
+  color: #fff;
+  font-weight: 900;
+}
+
+.cbbtn2{
+  display: inline-block;
+  padding: 12px 16px;
+  border-radius: 999px;
+  background: #fff;
+  color: rgb(127, 57, 255);
+  border: 1px solid rgba(127,57,255);
+  font-weight: 900;
+}
+
+.cbbtn:hover{
+  background: #fff;
+  color: rgb(127, 57, 255);
+  border: 1px solid rgba(127,57,255);
+}
+
+.cbbtn2:hover{
+  background: rgb(127, 57, 255);
+  color: #fff;
+  border: 1px solid rgba(127,57,255);
+}
+
+.cbcard:hover .cbimg img{
+  transform: scale(1.06);
+}
+
+.cbmini{
+  margin-top: 14px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.cbminicard{
+  flex: 1;
+  min-width: 260px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 16px;
+  border: 1px solid rgba(0,0,0,0.06);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.06);
+}
+
+.cbminicard h4{
+  margin: 0 0 8px 0;
+  font-size: 16px;
+  font-weight: 900;
+  color: rgb(127, 57, 255);
+}
+
+.cbminicard p{
+  margin: 0;
+  color: #555;
+  line-height: 1.7;
+  font-size: 13px;
+}
+
+.videosec{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  padding: 70px 0;
+}
+
+.videowrap{
+  width: 1200px;
+}
+
+.videotitle{
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.videotitle h2{
+  margin: 0 0 10px 0;
+  font-size: 30px;
+  font-weight: 800;
+  color: rgb(127, 57, 255);
+}
+
+.videotitle p{
+  margin: 0;
+  color: #555;
+}
+
+.videogrid{
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.videocard{
+  width: 380px;
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 18px;
+  padding: 0;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.06);
+  transition: transform .25s ease;
+  text-align: left;
+}
+
+.videocard:hover{
+  transform: translateY(-6px);
+}
+
+.videothumb{
+  position: relative;
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+}
+
+.videothumb img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform .35s ease, filter .35s ease;
+}
+
+.videothumb::after{
+  content:"";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.videocard:hover .videothumb::after{
+  opacity: 1;
+}
+
+.videocard:hover .videothumb img{
+  transform: scale(1.06);
+  filter: saturate(1.05);
+}
+
+.videoplay{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(.95);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(127,57,255,0.92);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 900;
+  font-size: 22px;
+  opacity: 0;
+  transition: opacity .35s ease, transform .35s ease;
+  z-index: 2;
+}
+
+.videocard:hover .videoplay{
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.videotime{
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  z-index: 2;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.videoinfo{
+  padding: 16px 16px 18px 16px;
+}
+
+.videoinfo h3{
+  margin: 0 0 8px 0;
+  font-size: 16px;
+  font-weight: 900;
+  color: #333;
+}
+
+.videoinfo p{
+  margin: 0;
+  font-size: 13px;
+  color: #666;
+}
+
+
+.videomodal{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+}
+
+.videomodal.on{
+  display: flex;
+}
+
+.videomodalbg{
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.65);
+}
+
+.videomodalbox{
+  position: relative;
+  width: 920px;
+  max-width: 92vw;
+  background: #111;
+  border-radius: 18px;
+  overflow: hidden;
+  z-index: 2;
+  box-shadow: 0 18px 40px rgba(0,0,0,0.35);
+}
+
+.videoclose{
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  z-index: 3;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: rgba(255,255,255,0.12);
+  color: #fff;
+  font-weight: 900;
+}
+
+.videoframe{
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.videoframe iframe{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.naetit{
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 16px;
+  padding: 10px 0 14px 0;
+  margin: 30px 0 18px 0;
+
+  border: 0;
+  border-bottom: 2px solid rgba(127, 57, 255, 0.25);
+
+  color: rgb(127, 57, 255);
+  font-size: 26px;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+.naetit p{
+  margin: 0;
+  font-size: 13px;
+  font-weight: 700;
+  color: rgba(0,0,0,0.35);
+}
+
+
+.naenae{
+  width: 1200px;
+  height: auto;                
+  display: flex;
+  gap: 28px;
+  justify-content: center;
+  align-items: stretch;        
+  padding: 22px;
+  box-sizing: border-box;
+
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.06);
+
+  margin-bottom: 40px;
+}
+
+
+.naenews{
+  width: 420px;                 
+  margin: 0;
+  text-align: left;
+}
+
+.naenews img{
+  width: 100%;
+  height: 520px;               
+  object-fit: cover;
+  border-radius: 16px;
+  display: block;
+}
+
+.naenews p{
+  margin-top: 10px;
+  color: rgba(0,0,0,0.45);
+  font-size: 12px;
+  text-align: center;
+}
+
+
+.naenaet{
+  width: auto;
+  height: 520px;               
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0;
+  color: #444;
+}
+
+
+.naenaet p{
+  margin: 0;
+  padding-right: 8px;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+
+  font-size: 15px;
+  line-height: 1.9;
+
+
+  white-space: pre-line;
+}
+
+.naenaet p::-webkit-scrollbar{
+  width: 8px;
+}
+.naenaet p::-webkit-scrollbar-thumb{
+  background: rgba(127, 57, 255, 0.25);
+  border-radius: 999px;
+}
+.naenaet p::-webkit-scrollbar-track{
+  background: rgba(0,0,0,0.04);
+  border-radius: 999px;
+}

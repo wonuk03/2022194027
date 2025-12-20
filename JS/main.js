@@ -62,21 +62,8 @@ $(document).ready(function(){
 
 
 
-// $(function(){
-//   $(".faqitem").on("click", function(e){
-//     e.preventDefault();
-
-//     $(".faqitem").not(this).removeClass("on").find(".faqbody").slideUp(200);
-//     $(".faqitem").not(this).find(".faqicon").text("+");
 
 
-//     $(this).toggleClass("on");
-//     $(this).find(".faqbody").slideToggle(200);
-
-
-//     $(this).find(".faqicon").text($(this).hasClass("on") ? "-" : "+");
-//   });
-// });
 
 
 
